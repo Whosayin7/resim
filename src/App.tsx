@@ -3,7 +3,7 @@ import { Lock, Unlock, Upload, Download, AlertCircle } from 'lucide-react';
 import { encryptImage, decryptImage } from './crypto';
 
 function App() {
-  const [key, setKey] = useState('FraktalBahar2025');
+  const [key, setKey] = useState(' ');
   const [originalImage, setOriginalImage] = useState<string | null>(null);
   const [processedImage, setProcessedImage] = useState<string | null>(null);
   const [processing, setProcessing] = useState(false);
